@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import Aleksoft.City.Dist.states.entities.State;
 
 @RestController
-@RequestMapping("/pais")
+@RequestMapping("/states")
 public class StateResource {
 
   private final StateRepository repository;
